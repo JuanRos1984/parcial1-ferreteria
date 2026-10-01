@@ -2,7 +2,7 @@ namespace Ferreteria;
 
 public static class Precios
 {
-    public const decimal MontoMinimoDescuento = 5000m;
+    public const decimal MontoMinimoDescuento = 4000m;
 
     public const decimal Itbis = 0.18m;
 
