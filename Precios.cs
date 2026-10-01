@@ -2,7 +2,11 @@
 
 public static class Precios
 {
+<<<<<<< HEAD
     public const decimal MontoMinimoDescuento = 4000m;
+=======
+    public const decimal MontoMinimoDescuento = 2000m;
+>>>>>>> 3f33c9f (Baja el monto mínimo de descuento a 2000)
 
     public const decimal Itbis = 0.18m;
 
