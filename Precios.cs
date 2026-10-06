@@ -1,12 +1,12 @@
-namespace Ferreteria;
+﻿namespace Ferreteria;
 
 public static class Precios
 {
-    public const decimal MontoMinimoDescuento = 5000m;
+    public const decimal MontoMinimoDescuento = 4000m;
 
     public const decimal Itbis = 0.18m;
 
-    // Suma cantidad por precio unitario de cada línea.
+    // Suma cantidad por precio unitario de cada lÃ­nea.
     public static decimal Subtotal(IEnumerable<Linea> lineas) =>
         lineas.Sum(l => l.Cantidad * l.PrecioUnitario);
 

@@ -1,4 +1,4 @@
-namespace Ferreteria;
+﻿namespace Ferreteria;
 
 public static class Pruebas
 {
@@ -16,7 +16,7 @@ public static class Pruebas
             ("El ITBIS es el 18 % del subtotal", Precios.Impuesto(100m) == 18m),
             ("El resumen muestra el total", Reporte.Resumen(Compra).Contains("Total")),
             ("Descuento del 8 % en compras grandes", Precios.Descuento(20000m) == 1600m),
-            ("Sin descuento en compras pequeñas", Precios.Descuento(100m) == 0m),
+            ("Sin descuento en compras pequeÃ±as", Precios.Descuento(100m) == 0m),
         };
 
         int fallas = 0;

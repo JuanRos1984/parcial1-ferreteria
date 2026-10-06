@@ -1,4 +1,4 @@
-namespace Ferreteria;
+﻿namespace Ferreteria;
 
 public static class Reporte
 {
